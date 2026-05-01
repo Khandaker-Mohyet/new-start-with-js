@@ -6,5 +6,11 @@ const fruits = ['Apple', 'Banana', 'Anar', 'Watermelon', 'Daav']
 
 for(let i=0; i<fruits.length; i++){
     // console.log(i)
-    console.log(fruits[i])
+    // console.log(fruits[i])
+}
+
+const numbers = [12, 34, 347, 56, 23, 7,8 ,43]
+
+for (let m = 0; m<numbers.length ; m++){
+    // console.log(numbers[m])
 }
