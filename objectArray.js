@@ -48,8 +48,8 @@ for(product of products){
 
 comp_products[0] = 15;
 
-console.log(products);
-console.log(comp_products);
+// console.log(products);
+// console.log(comp_products);
 
 // another
 
@@ -60,3 +60,11 @@ price = 12;
 
 // console.log(price);
 // console.log(comp_price);
+
+const numbers = [1, 2, 3, 4]
+const new_numbers = Array.from(numbers);
+
+new_numbers.push(8);
+
+console.log(numbers)
+console.log(new_numbers)
