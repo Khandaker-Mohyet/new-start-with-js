@@ -39,12 +39,17 @@ for(const employee of employees){
 // copy
 
 const products = [25, 25, 25]
-const comp_products = products;
+// const comp_products = products;
+const comp_products = [];
+
+for(product of products){
+  comp_products.push(product)
+}
 
 comp_products[0] = 15;
 
-// console.log(products);
-// console.log(comp_products);
+console.log(products);
+console.log(comp_products);
 
 // another
 
