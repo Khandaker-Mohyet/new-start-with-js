@@ -31,3 +31,7 @@ const employees = [
 for(const employee of employees){
     console.log(employee.designation)
 }
+
+// array of array
+
+// examMarks[1][4]
