@@ -29,7 +29,7 @@ const employees = [
 // console.log(employees[4].salary)
 
 for(const employee of employees){
-    console.log(employee.designation)
+    // console.log(employee.designation)
 }
 
 // array of array
@@ -43,8 +43,8 @@ const comp_products = products;
 
 comp_products[0] = 15;
 
-console.log(products);
-console.log(comp_products);
+// console.log(products);
+// console.log(comp_products);
 
 // another
 
@@ -53,5 +53,5 @@ let comp_price = price;
 
 price = 12;
 
-console.log(price);
-console.log(comp_price);
+// console.log(price);
+// console.log(comp_price);
