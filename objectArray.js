@@ -62,7 +62,8 @@ price = 12;
 // console.log(comp_price);
 
 const numbers = [1, 2, 3, 4]
-const new_numbers = Array.from(numbers);
+// const new_numbers = Array.from(numbers);
+const new_numbers = [...numbers]
 
 new_numbers.push(8);
 
