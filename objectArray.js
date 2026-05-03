@@ -35,3 +35,13 @@ for(const employee of employees){
 // array of array
 
 // examMarks[1][4]
+
+// copy
+
+const products = [25, 25, 25]
+const comp_products = products;
+
+comp_products[0] = 15;
+
+console.log(products);
+console.log(comp_products);
