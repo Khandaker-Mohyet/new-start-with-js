@@ -5,7 +5,9 @@ function inchToFeet(inch){
 function inchToFeet2(inch){
     const feetFraction = inch / 12;
     const feetNumber = parseInt(feetFraction)
-    return feetNumber
+    const inchRemaining = inch % 12;
+    const resutl = feetNumber + ' ft ' + inchRemaining + " inch "
+    return resutl
 }
 
 const myHeight = inchToFeet2(68)
