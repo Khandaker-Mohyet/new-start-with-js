@@ -20,4 +20,4 @@ function mileToKilometer (mile){
     return kilo;
 }
 
-console.log(mileToKilometer(1000))
+// console.log(mileToKilometer(1000))
