@@ -5,7 +5,7 @@ function oddAverage (numbers){
     for (const number of numbers){
         if(number % 2 === 1){
             // console.log(number)
-            odds
+            odds.push(number)
         }
     }
 }
