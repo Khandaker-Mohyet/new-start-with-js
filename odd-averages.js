@@ -8,6 +8,7 @@ function oddAverage (numbers){
             odds.push(number)
         }
     }
+    console.log(odds)
 }
 
 const avg = oddAverage(numbers);
