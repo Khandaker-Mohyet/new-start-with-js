@@ -4,13 +4,19 @@ const odds = []
 function oddAverage (numbers){
     for (const number of numbers){
         if(number % 2 === 1){
-            // console.log(number)
             odds.push(number)
         }
     }
-    console.log(odds)
+    // console.log(odds)
+    let sum = 0;
+    for(const number of odds){
+        sum = sum + number;
+    }
+    const count = odds.length;
+    const avrage = sum/count
+    console.log(avrage)
 }
 
 const avg = oddAverage(numbers);
 
-console.log(avg)
+// console.log(avg)
