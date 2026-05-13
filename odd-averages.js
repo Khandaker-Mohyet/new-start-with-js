@@ -13,10 +13,10 @@ function oddAverage (numbers){
         sum = sum + number;
     }
     const count = odds.length;
-    const avrage = sum/count
-    console.log(avrage)
+    const avg = sum/count
+    return avg
 }
 
 const avg = oddAverage(numbers);
 
-// console.log(avg)
+console.log("The odd number avrage is ", avg)
